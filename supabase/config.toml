@@ -1,0 +1,17 @@
+# Configuración para la CLI de Supabase (`supabase functions deploy`)
+project_id = "nube-estudio"
+
+# El sitio llama a estas funciones sin sesión iniciada
+[functions.book]
+verify_jwt = false
+
+[functions.cancel]
+verify_jwt = false
+
+# Protegida con CRON_SECRET
+[functions.reminders]
+verify_jwt = false
+
+# Comprueba ella misma que sea la administradora
+[functions.notify]
+verify_jwt = false
