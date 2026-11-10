@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+﻿import { Link } from 'react-router-dom'
 
 // Logo tipográfico: NUBE / — estudio —
 export default function Logo({ big = false, to = '/', as }) {

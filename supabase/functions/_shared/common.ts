@@ -1,4 +1,4 @@
-// Utilidades compartidas por las funciones de servidor (Supabase Edge Functions)
+﻿// Utilidades compartidas por las funciones de servidor (Supabase Edge Functions)
 import { createClient } from 'npm:@supabase/supabase-js@2'
 
 export const cors = {

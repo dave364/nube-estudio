@@ -1,4 +1,4 @@
-// Conexión real con Supabase (base de datos, login del panel y funciones de servidor)
+﻿// Conexión real con Supabase (base de datos, login del panel y funciones de servidor)
 import { createClient } from '@supabase/supabase-js'
 
 let client

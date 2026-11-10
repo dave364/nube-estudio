@@ -1,4 +1,4 @@
--- ============================================================================
+﻿-- ============================================================================
 -- Nube Estudio · Sistema de reservas de clases
 -- Se corre una sola vez en Supabase: SQL Editor → pegar todo → Run
 -- (o `supabase db push` si usás la CLI).
@@ -138,7 +138,7 @@ create trigger bookings_status_dates
   for each row execute function public.bookings_status_dates();
 
 -- ---------------------------------------------------------------------------
--- Administradoras (Lizbeth). Se agrega con:
+-- Administradoras (Lisbeth). Se agrega con:
 --   insert into public.admins (user_id) select id from auth.users where email = '...';
 -- ---------------------------------------------------------------------------
 create table public.admins (
@@ -351,7 +351,7 @@ revoke execute on function public.admin_schedule(date, date) from public, anon;
 grant execute on function public.admin_schedule(date, date) to authenticated;
 
 -- ============================================================================
--- Datos iniciales DE EJEMPLO: Lizbeth los cambia desde el panel
+-- Datos iniciales DE EJEMPLO: Lisbeth los cambia desde el panel
 -- (Disciplinas y Horarios). Precios en pesos.
 -- ============================================================================
 insert into public.disciplines (key, name, description, kind, price, minutes, sort) values

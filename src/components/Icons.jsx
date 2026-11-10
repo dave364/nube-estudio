@@ -1,4 +1,4 @@
-// Íconos de línea fina, en el estilo del flyer
+﻿// Íconos de línea fina, en el estilo del flyer
 const S = { fill: 'none', stroke: 'currentColor', strokeWidth: 1.6, strokeLinecap: 'round', strokeLinejoin: 'round' }
 
 export const Cloud = (p) => (

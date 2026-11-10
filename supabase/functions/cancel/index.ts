@@ -1,4 +1,4 @@
-// POST /functions/v1/cancel   Body: { token }
+﻿// POST /functions/v1/cancel   Body: { token }
 // La alumna cancela con el link de su email.
 import { admin, cors, errorCode, json, loadFull } from '../_shared/common.ts'
 import { type Mail, sendAll } from '../_shared/email.ts'

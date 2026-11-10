@@ -1,4 +1,4 @@
--- ============================================================================
+﻿-- ============================================================================
 -- Recordatorios automáticos: la base llama a la función `reminders` cada 30 min.
 -- Correr DESPUÉS de publicar las funciones, en SQL Editor, reemplazando:
 --   TU_PROYECTO  → el ID del proyecto (lo que va antes de .supabase.co)

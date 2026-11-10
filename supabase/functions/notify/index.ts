@@ -1,4 +1,4 @@
-// POST /functions/v1/notify   (solo desde el panel, con la sesión de Lizbeth)
+﻿// POST /functions/v1/notify   (solo desde el panel, con la sesión de Lisbeth)
 // Body: { bookingId, kind: 'paid' | 'cancelled' | 'confirmation' }
 // Avisa a la alumna cuando se marca una reserva como pagada, se cancela
 // o se quiere reenviar el email de confirmación (con los datos de pago).

@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect } from 'react'
+﻿import { lazy, Suspense, useEffect } from 'react'
 import { BrowserRouter, HashRouter, Link, Outlet, Route, Routes, useLocation } from 'react-router-dom'
 import Header from './components/Header'
 import Footer, { WhatsAppFloat } from './components/Footer'
@@ -26,7 +26,7 @@ function Layout() {
     <>
       {DEMO && (
         <div className="demo-bar">
-          Versión de muestra: los horarios y reservas son de ejemplo. <Link to="/admin">Ver el panel de Lizbeth →</Link>
+          Versión de muestra: los horarios y reservas son de ejemplo. <Link to="/admin">Ver el panel de Lisbeth →</Link>
         </div>
       )}
       <Header />

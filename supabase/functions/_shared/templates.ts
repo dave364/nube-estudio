@@ -1,4 +1,4 @@
-// Emails a la alumna y a Lizbeth
+﻿// Emails a la alumna y a Lisbeth
 import { cancelLink, type Full, money } from './common.ts'
 import type { Mail } from './email.ts'
 
@@ -124,7 +124,7 @@ export function paidEmail(f: Full): Mail {
   }
 }
 
-// Aviso a Lizbeth
+// Aviso a Lisbeth
 export function adminEmail(f: Full, kind: 'new' | 'cancelled'): Mail | null {
   if (!f.settings.admin_email) return null
   const b = f.booking

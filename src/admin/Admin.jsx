@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+﻿import { useEffect, useState } from 'react'
 import { Link, NavLink, Navigate, Route, Routes } from 'react-router-dom'
 import api, { DEMO } from '../lib/api'
 import Agenda from './Agenda'
@@ -137,7 +137,7 @@ function Login() {
       <form className="a-box a-login" onSubmit={submit}>
         <Brand big />
         {DEMO && <p className="a-note">Modo demo: entrá con cualquier email y contraseña.</p>}
-        <label className="a-field"><span>Email</span><input name="email" type="email" required autoComplete="username" defaultValue={DEMO ? 'lizbeth@nube.com' : ''} /></label>
+        <label className="a-field"><span>Email</span><input name="email" type="email" required autoComplete="username" defaultValue={DEMO ? 'Lisbeth@nube.com' : ''} /></label>
         <label className="a-field"><span>Contraseña</span><input name="password" type="password" required autoComplete="current-password" defaultValue={DEMO ? 'demo1234' : ''} /></label>
         {error && <p className="a-error">{error}</p>}
         {resetSent && <p className="a-ok">Te mandamos un email para crear una contraseña nueva.</p>}

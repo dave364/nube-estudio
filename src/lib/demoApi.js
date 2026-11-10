@@ -1,4 +1,4 @@
-// MODO DEMO: misma interfaz que supabaseApi.js, pero todo vive en memoria.
+﻿// MODO DEMO: misma interfaz que supabaseApi.js, pero todo vive en memoria.
 // Sirve para mostrar el sitio y el panel antes de conectar Supabase.
 // Las reservas de prueba se pierden al recargar la página.
 import { addDays, arToIso, dayKey, isoWeekday, todayKey } from './dates'

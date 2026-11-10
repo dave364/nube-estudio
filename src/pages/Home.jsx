@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+﻿import { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import api from '../lib/api'
 import { money } from '../lib/dates'
@@ -83,7 +83,7 @@ export default function Home() {
           <div>
             <p className="eyebrow">El estudio</p>
             <h2>Movimiento, arte y bienestar en un mismo lugar</h2>
-            {/* COMPLETAR: texto de Lizbeth sobre el estudio y las profes */}
+            {/* COMPLETAR: texto de Lisbeth sobre el estudio y las profes */}
             <p className="muted">Nube es un espacio pensado para que te sientas cómoda desde el primer día. Trabajamos en grupos chicos para acompañarte de cerca, ya sea que empieces de cero o quieras ir por más.</p>
             <p className="muted">Además de Pilates Reformer y Mat, tenemos clases de danza y clases individuales de piano y guitarra, para todas las edades.</p>
             <div className="values"><span>Movimiento</span><span>Arte</span><span>Bienestar</span></div>

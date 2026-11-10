@@ -1,4 +1,4 @@
-// Utilidades del panel
+﻿// Utilidades del panel
 export const STATUS = {
   pending_payment: { label: 'Falta pagar', tone: 'warn' },
   paid: { label: 'Pagada', tone: 'ok' },

@@ -1,4 +1,4 @@
-// Fechas siempre en hora de Argentina (aunque quien visite esté en otro lado)
+﻿// Fechas siempre en hora de Argentina (aunque quien visite esté en otro lado)
 import { TIMEZONE } from '../config/site'
 
 const fmt = (opts) => new Intl.DateTimeFormat('es-AR', { timeZone: TIMEZONE, ...opts })

@@ -1,5 +1,5 @@
-// Datos del estudio que se muestran en el sitio.
-// Lo que dice "COMPLETAR" está pendiente de que lo confirme Lizbeth.
+﻿// Datos del estudio que se muestran en el sitio.
+// Lo que dice "COMPLETAR" está pendiente de que lo confirme Lisbeth.
 export const SITE = {
   name: 'Nube Estudio',
   tagline: 'Movimiento · Arte · Bienestar',

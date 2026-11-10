@@ -1,4 +1,4 @@
-// Envío de emails. Se usa el primero que esté configurado:
+﻿// Envío de emails. Se usa el primero que esté configurado:
 //   1. Brevo (recomendado):  BREVO_API_KEY + EMAIL_FROM (remitente verificado en Brevo)
 //   2. Resend (dominio propio): RESEND_API_KEY + EMAIL_FROM
 //   3. Gmail por SMTP: SMTP_USER + SMTP_PASS (contraseña de aplicación)

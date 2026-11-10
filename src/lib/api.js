@@ -1,4 +1,4 @@
-// Elige la conexión: Supabase si está configurado, si no el modo demo.
+﻿// Elige la conexión: Supabase si está configurado, si no el modo demo.
 import * as real from './supabaseApi'
 import * as demo from './demoApi'
 

@@ -1,4 +1,4 @@
-// POST /functions/v1/book
+﻿// POST /functions/v1/book
 // Reserva de una clase desde el sitio.
 // Body: { classId, startsAt, name, email, phone?, notes?, website (trampa anti-spam, vacío) }
 import { admin, clean, cors, errorCode, isEmail, json, loadFull } from '../_shared/common.ts'

@@ -1,4 +1,4 @@
-// POST /functions/v1/reminders   Header: Authorization: Bearer <CRON_SECRET>
+﻿// POST /functions/v1/reminders   Header: Authorization: Bearer <CRON_SECRET>
 // La llama la base cada 30 minutos (ver supabase/cron.sql). Manda un
 // recordatorio a cada reserva que empieza dentro de las próximas
 // `settings.reminder_hours` horas (24 por defecto), con los datos de pago
